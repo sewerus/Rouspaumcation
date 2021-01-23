@@ -260,6 +260,8 @@ class Rouspaumcation:
 
             # there are 9 conditions to check
 
+            iteration_demands_indices = set()
+
             for d_index in range(start_demand_index, demands_amount):
                 # stop if future demands
                 d = demands[d_index]
