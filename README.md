@@ -1,6 +1,6 @@
 # Rouspaumcation
 
-Simulation program designed to solve problem of dynamic routing, space and spectrum allocation (RSSA) of unicast demands in flex-grid network with assistive sotrage.
+Simulation program designed to solve problem of dynamic routing, space and spectrum allocation (RSSA) of unicast demands in flex-grid network with assistive storage.
 
 Needed data set:
 - .net file with network dimensions: number of nodes, links and adjacent matrix,
