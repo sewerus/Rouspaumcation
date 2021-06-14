@@ -63,9 +63,9 @@ We decided to run simulations for networks with much lower parameters. In our re
 
 The SSA algorithm for traffic volumes up to 1000 E did not report any rejected requests. The results may be different in a lower-performing network. We want to use our method to check whether any requests will be rejected without using assistive storage and how it will change with assistive storage of different sizes.  We will perform this test for traffic volumes of 300 E, 400 E, 500 E and 600 E. Thanks to this comparison, we will see how the use of assistive storage affects the allocation of requests.
 
-![1800e results](./images/1800e.jpg) 
+![1800e results](./1800e.jpg) 
 
-![1800e results](./images/2000e.jpg) 
+![1800e results](./2000e.jpg) 
 
 | Traffic | Test | Pd       | K       | Storage | All bitrate | Served bitrate | Rejected bitrate | All demands | Served demands | Rejected demands | DBP    | BBP    |
 |---------|------|----------|---------|---------|-------------|----------------|------------------|-------------|----------------|------------------|--------|--------|
