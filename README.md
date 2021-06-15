@@ -1,12 +1,33 @@
+
 # Rouspaumcation
 
 Simulation program designed to solve problem of dynamic routing, space and spectrum allocation (RSSA) of unicast demands in flex-grid network with assistive storage.
 
+## Table of contents
+* [Rouspaumcation](#rouspaumcation)
+	* [Data set](#data-set)
+	* [Setup](#setup)
+	* [Usage](#usage)
+* [Project](#project)
+	* [Intoruction](#introduction)
+	* [SetRelated worksup](#related-works)
+	* [Problem definition, Nomenclature, Description of the method](#problem)
+	* [Research plan and simulation program](#research-plan)
+	* [Conducted research and results](#results)
+	* [Conclusions](#conclusions)
+	* [References](#references)
+
+## Data set
 Needed data set:
 - .net file with network dimensions: number of nodes, links and adjacent matrix,
 - .pat file with k candidate paths (k can be set up in code),
 - .spec file with number of slices needed for each path in .pat file,
 - .dem files with demands (income iteration, source, target, bitrate and duration).
+
+## Setup
+Clone this repo to your desktop and install all the dependencies. You can also edit file main.py to set your number of slices (S), cores (K) or iterations (n).
+## Usage
+Just run command `python main.py` to run an application. Then choose in the command prompt data sets and start simulation. Results are saved into new file with the same name as data file with "_results" at the end.
 
 # Project
 
@@ -158,3 +179,4 @@ Based on the results obtained for 7 cores:
 [17]: A. Agrawal, U. Vyas, V. Bhatia, and S. Prakash, “Sla-aware differentiated qos in elastic optical networks, ”Optical FiberTechnology, vol. 36, pp. 41 – 50, 2017. [Online]. Available: http://www.sciencedirect.com/science/article/pii/S1068520017300536
 
 [18]: J. Mata, I. de Miguel, R. J. Dur ́an, N. Merayo, S. K. Singh, A. Jukan, and M. Chamania, “Artificial intelligence (ai) methods in optical networks: A comprehensive survey, ”Optical Switchingand Networking, vol. 28, pp. 43 – 57, 2018. [Online]. Available: http://www.sciencedirect.com/science/article/pii/S157342771730231X
+
